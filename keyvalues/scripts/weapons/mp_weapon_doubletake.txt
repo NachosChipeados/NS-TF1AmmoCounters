@@ -1,0 +1,6 @@
+WeaponData
+{
+	"entity_color_from_ads_factor"			""
+	
+    "ui2_enable"		"0"
+}

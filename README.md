@@ -1,42 +1,44 @@
-# NSModTemplate
-A template repository for Northstar mods with a ~~mostly~~ pre-configured github action for publishing to Thunderstore
+Replaces the ammo counters of most weapons with their Titanfall 1 counterparts, if they have any OR completely new ammo counters in Titanfall 1's style.
 
-## Usage
-<ol>
-<li> Click the <code>Use this template</code> button on the top right of the repo's landing page (<a href="https://github.com/GreenTF/NSModTemplate">here</a>)</li>
-<li> Give the new repo a name and make sure it's set to <code>public</code></li>
-<li> <details><summary> In the <code>settings</code> tab, under <code>actions</code> -> <code>general</code>, set <code>Actions permissions</code> to <code>Allow all actions and reusable workflows</code></summary>
-<img src="https://user-images.githubusercontent.com/4367791/180306016-04bfc321-b60f-4ed0-ac0c-5a6065036e2c.png" />
-</details></li>
-<li> <details><summary> Also in <code>settings</code>, under <code>secrets</code> ->  <code>actions</code>, add your Thunderstore token as a secret named <code>TS_KEY</code> (Steps for getting a token can be found <a href="https://github.com/GreenTF/upload-thunderstore-package/wiki">here</a>)</summary>
-  <img src="https://user-images.githubusercontent.com/4367791/180306285-60dd51ec-0448-44af-aa92-682599c6c0f4.png" />
-  <img src="https://user-images.githubusercontent.com/4367791/180306391-a217f309-e875-4e74-8270-8155c60dbcdc.png" />
-</details>
-</li>
-  <li> <details><summary>Edit <code>.github/workflows/publish.yml</code> ~line 43 to add a description for your mod </summary>
-    <img src="https://user-images.githubusercontent.com/4367791/180337843-5213db45-850b-4759-98c5-9ad47cbab7ba.png" />
-    </details>
-  </li>
+#  Update log
 
-<li> Update this README and <code>icon.png</code> as they will be used by Thunderstore as well </li>
-<li> Write your mod! (HINT: Find the docs <a href="https://r2northstar.readthedocs.io/en/latest/guides/gettingstarted.html">here</a>) </li>
-<li> <details><summary>Publish your mod!</summary>
-  Once you've pushed all your chages to your repo, you'll need to create a tag to trigger the action that will publish your mod to Thunderstore.
-  Find the `Releases` pane in the sidebar to the right ---->
-  <br />
-  <img src="https://github.com/GreenTF/NSModTemplate/assets/4367791/cd789d16-dd0a-4310-8dc1-c1781b6c66a8" />
-  <br />
-  Create a new release, filling in the details however you want. The most important part is that the tag matches the version number of your mod. In this example, the <code>Version</code> field in your <code>mod.json</code> should be <code>1.0.0</code>:
-  <br />
-  <img src="https://github.com/GreenTF/NSModTemplate/assets/4367791/e3fd6bad-4d1c-438c-b3a3-b683c1316ab5" />
-  <br />
-  Once you've added a title and optional description, go ahead and publish that release.
-  <br />
-  <img src="https://github.com/GreenTF/NSModTemplate/assets/4367791/9da50c60-87f1-40aa-b5a9-9c69becd4026" />
-  <br />
-  If all goes well, you should see a new publish job running in the <code>Actions</code> tab :D
-</details>
-</li>
-</ol>
+## v1.0.1 - v1.0.4
 
+- Various bug fixes.
+- Added new screenshots.
 
+## v2.0.0
+
+- Added Hemlok, Longbow, and most Titanfall 2 weapons.
+- More bug fixes.
+- Added slight glow to the numbers material (Suggested by Creamy).
+
+## v2.1.0
+
+- Added Archer.
+- Moved materials to a separate mod.
+
+## v2.2.0
+
+- Fixed Doubletake being somewhat visible while adsing.
+- Added in-scope ammo counters to all snipers.
+
+# Preview
+![1](https://i.imgur.com/PhUmEv2.png)
+![2](https://i.imgur.com/qb2VHG3.png)
+![3](https://i.imgur.com/uZtKony.png)
+![4](https://i.imgur.com/dLcTT86.png)
+![5](https://i.imgur.com/lCaax2W.png)
+![6](https://i.imgur.com/KCIpuUx.png)
+![7](https://i.imgur.com/JWGp7s5.png)
+![8](https://i.imgur.com/nEWFXjy.png)
+![9](https://i.imgur.com/Bh2SIaB.png)
+![10](https://i.imgur.com/1rymRA7.png)
+![11](https://i.imgur.com/0hVyfhw.png)
+![12](https://i.imgur.com/8Fu3Bbv.png)
+![13](https://i.imgur.com/nS6waMl.png)
+![14](https://i.imgur.com/fdzsDZn.png)
+![15](https://i.imgur.com/bFSb42M.png)
+![16](https://i.imgur.com/TOilnj8.png)
+![17](https://i.imgur.com/fAPDvWw.png)
+![18](https://i.imgur.com/mMy8vHD.png)

@@ -1,0 +1,24 @@
+WeaponData
+{
+	"ui2_enable"		"0"
+	
+	Mods
+	{
+	    //why
+		hcog
+		{
+	        "ui2_enable"		"0"
+		}
+		iron_sights
+		{
+		}
+		redline_sight
+		{
+	        "ui2_enable"		"0"
+		}
+		threat_scope
+		{
+			"ui2_enable"		"0"
+		}
+	}
+}

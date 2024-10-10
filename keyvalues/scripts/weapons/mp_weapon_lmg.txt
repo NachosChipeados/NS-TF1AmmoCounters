@@ -1,0 +1,4 @@
+WeaponData
+{
+	"ui2_enable"		"0"
+}

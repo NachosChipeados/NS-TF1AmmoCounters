@@ -1,17 +1,7 @@
 {
-   "Name": "Example.Mod",
-   "Description": "A cool mod that does cool stuff",
-   "Version": "1.0.0",
-   "DownloadLink": "https://northstar.thunderstore.io/package/download/Example/Mod/",
-
-   "LoadPriority": 0,
-   "ConVars": [],
-   "Scripts": [{
-      "Path": "example.nut",
-      "RunOn": "(CLIENT || SERVER) && MP",
-      "ClientCallback": {
-         "Before":"example_callback"
-      }
-   }],
-   "Localisation": []
+    "Name": "Nachos.TF1_AmmoCounters",
+	"Description": "Replaces the ammo counters of most weapons with their Titanfall 1 counterparts, if they have any OR completely new ammo counters in Titanfall 1's style.",
+	"Version": "2.2.0",
+	"LoadPriority": 5,
+	"DownloadLink": "https://thunderstore.io/package/download/NachosChipeados/Titanfall_1_Ammo_Counters/"
 }

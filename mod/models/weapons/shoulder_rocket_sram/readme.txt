@@ -1,0 +1,1 @@
+i have no idea why this thing even has an ammo counter in the first place
