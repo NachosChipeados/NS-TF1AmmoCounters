@@ -8,7 +8,7 @@ on:
       - '.github/**'
     
 env:
-  name: ${{github.event.repository.name}} # Edit this if the package name differs from the repo name
+  name: "Titanfall_1_Ammo_Counters" # Edit this if the package name differs from the repo name
 
 jobs:
   verify:
@@ -43,10 +43,10 @@ jobs:
           # Package version to publish
           version: ${{ github.ref_name }} # This is the tag that was created in the release
           # Description of the mod
-          description: Replaces the ammo counters of most weapons with Titanfall 1 styled ammo counters. # <----------- UPDATE THIS
+          description: "Replaces the ammo counters of most weapons with Titanfall 1 styled ammo counters."
           # Thunderstore API token
           token: ${{ secrets.TS_KEY }} 
           # Directory to wrap the contents of the repo in
-          wrap: mods/${{ github.repository_owner }}.${{ env.name }} # This will wrap your Author.ModName folder in a mods/ folder before publishing
-          deps: "NachosChipeados-Titanfall_1_Ammo_Counters_MATERIALS@1.1.0 HatMann-Depth_Of_Field_And_Bloom_Remover@1.0.2" # <------------- Uncomment this line to add dependencies to your mod, each sparated by a space
+          wrap: mods/${{ github.repository_owner }}.TF1_AmmoCounters # This will wrap your Author.ModName folder in a mods/ folder before publishing
+          deps: "NachosChipeados-Titanfall_1_Ammo_Counters_MATERIALS@1.2.0 HatMann-Depth_Of_Field_And_Bloom_Remover@1.0.2" # <------------- Uncomment this line to add dependencies to your mod, each sparated by a space
           categories: "Client-side Models" # <----------------------------- Add more categories as needed, separated by spaces
