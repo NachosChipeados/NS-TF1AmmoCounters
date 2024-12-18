@@ -1,0 +1,31 @@
+WeaponData
+{
+	Mods
+	{
+		iron_sights
+		{
+		}
+		hcog
+		{
+			"ui6_enable"	"0"
+		}
+		holosight
+		{
+		}
+		redline_sight
+		{
+			"ui3_enable"	"0"
+		}
+	}
+
+	"ui1_enable"			"0"
+	"ui2_enable"			"0"
+
+	"UiData4"
+	{
+		Args
+		{
+			"zoomFrac"		"player_chargeFrac"
+		}
+	}
+}

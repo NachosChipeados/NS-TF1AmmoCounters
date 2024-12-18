@@ -1,24 +1,35 @@
 WeaponData
 {
-	"ui2_enable"		"0"
-	
 	Mods
 	{
-		//why
+		// Why
 		hcog
 		{
-			"ui2_enable"		"0"
+			"ui2_enable"	"0"
+			"ui6_enable"	"0"
 		}
 		iron_sights
 		{
 		}
 		redline_sight
 		{
-			"ui2_enable"		"0"
+			"ui2_enable"	"0"
+			"ui3_enable"	"0"
 		}
 		threat_scope
 		{
-			"ui2_enable"		"0"
+			"ui2_enable"	"0"
+		}
+	}
+
+	"ui1_enable"			"0"
+	"ui2_enable"			"0"
+
+	"UiData4"
+	{
+		Args
+		{
+			"zoomFrac"		"player_chargeFrac"
 		}
 	}
 }

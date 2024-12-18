@@ -1,4 +1,31 @@
 WeaponData
 {
-	"ui2_enable"		"0"
+	Mods
+	{
+		iron_sights
+		{
+		}
+		holosight
+		{
+			"dof_zoom_nearDepthStart"						"5.161"
+			"dof_zoom_nearDepthEnd"							"8.204"
+
+			"ui5_enable"	"0"
+		}
+		redline_sight
+		{
+			"ui3_enable"	"0"
+		}
+	}
+
+	"ui1_enable"			"0"
+	"ui2_enable"			"0"
+
+	"UiData4"
+	{
+		Args
+		{
+			"zoomFrac"		"player_chargeFrac"
+		}
+	}
 }

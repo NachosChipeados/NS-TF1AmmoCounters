@@ -1,4 +1,7 @@
 WeaponData
 {
+	"viewkick_ads_weaponFraction" 					"0.3" //"0.0"
+	"viewkick_ads_weaponFraction_vmScale" 			"1.0" //"0.5"
+
 	"ui2_enable"		"0"
 }

@@ -1,4 +1,39 @@
 WeaponData
 {
-	"ui2_enable"		"0"
+	// Removes fake shake
+	"viewmodel_shake_forward"						"0.0"
+	"viewmodel_shake_up"							"0.0"
+	"viewmodel_shake_right"							"0.0"
+
+	Mods
+	{
+		iron_sights
+		{
+		}
+		holosight
+		{
+			"dof_zoom_nearDepthStart"						"4.161"
+			"dof_zoom_nearDepthEnd"							"7.204"
+			"ui7_enable"	"0"
+		}
+		redline_sight
+		{
+			"ui3_enable"	"0"
+		}
+	}
+
+	"ui2_enable"			"0"
+
+	"UiData1"
+	{
+		"ui"				"ui/volt_ammo_counter"
+	}
+
+	"UiData4"
+	{
+		Args
+		{
+			"zoomFrac"		"player_chargeFrac"
+		}
+	}
 }

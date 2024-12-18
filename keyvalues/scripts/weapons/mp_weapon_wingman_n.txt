@@ -1,4 +1,5 @@
 WeaponData
 {
 	"ui1_enable"		"0"
+	"ui6_enable"		"0"
 }
