@@ -1,5 +1,6 @@
 Replaces the ammo counters of most weapons with their Titanfall 1 counterparts, if they have any OR completely new ammo counters in Titanfall 1's style.
 
+Screenshots may be slightly outdated.
 # Preview
 ![1](https://i.imgur.com/PhUmEv2.png)
 ![2](https://i.imgur.com/qb2VHG3.png)

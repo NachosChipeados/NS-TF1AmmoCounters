@@ -20,3 +20,8 @@
 
 - Fixed Doubletake being somewhat visible while adsing.
 - Added in-scope ammo counters to all snipers.
+
+## V3.0.0
+
+- Now uses CRF.
+- Fixed R-201 having a visible hole while cloaked.
