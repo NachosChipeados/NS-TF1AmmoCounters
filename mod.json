@@ -1,7 +1,7 @@
 {
 	"Name": "Nachos.TF1_AmmoCounters",
 	"Description": "Replaces the ammo counters of most weapons with their Titanfall 1 counterparts, if they have any OR completely new ammo counters in Titanfall 1's style.",
-	"Version": "3.0.0",
+	"Version": "3.1.0",
 	"LoadPriority": 4,
-	"DownloadLink": "https://thunderstore.io/package/download/NachosChipeados/Titanfall_1_Ammo_Counters/3.0.0"
+	"DownloadLink": "https://thunderstore.io/package/download/NachosChipeados/Titanfall_1_Ammo_Counters/3.1.0"
 }
