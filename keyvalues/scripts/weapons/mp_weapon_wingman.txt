@@ -1,4 +1,39 @@
 WeaponData
 {
+	Mods
+	{
+		iron_sights
+		{
+		}
+		extended_ammo
+		{
+		}
+		silencer
+		{
+		}
+		hcog
+		{
+		}
+		redline_sight
+		{
+		}
+		threat_scope
+		{
+			"ui4_enable"		"1"
+		}
+	}
+
 	"ui1_enable"		"0"
+
+	"ui4_enable"		"0"
+	"ui4_draw_cloaked"	"1"
+	UiData4
+	{
+		"ui"							"ui/cro_threat_front"
+		"mesh"					"models/weapons/attachments/cro_rui_upper"
+		Args
+		{
+			zoomFrac					player_chargeFrac
+		}
+	}
 }

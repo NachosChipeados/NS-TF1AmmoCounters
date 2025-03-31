@@ -2,6 +2,9 @@ WeaponData
 {
 	"viewmodel_offset_ads"			"0 0 -0.21"
 
+    "bodygroup6_name"				"sight_holo"
+    "bodygroup6_set"				"0"
+
 	Mods
 	{
 		iron_sights
@@ -9,10 +12,16 @@ WeaponData
 		}
 		holosight
 		{
-			// ????? Vanilla guns minus has this, so
+			"ui1_enable"			"0"
 
+			"bodygroup1_set"		"0"
+			"bodygroup2_set"		"0"
+			"bodygroup3_set"		"0"
+			"bodygroup4_set"		"0"
+			"bodygroup6_set"		"1"
+
+			"zoom_fov"				"30"
 			"viewmodel_offset_ads"	"0 -.5	-0.21"
-			"zoom_fov"		"45"
 		}
 		aog
 		{

@@ -3,5 +3,43 @@ WeaponData
 	"viewkick_ads_weaponFraction" 					"0.3" //"0.0"
 	"viewkick_ads_weaponFraction_vmScale" 			"1.0" //"0.5"
 
+	Mods
+	{
+		iron_sights
+		{
+		}
+		extended_ammo
+		{
+		}
+		silencer
+		{
+		}
+		pas_run_and_gun
+		{
+		}
+		alt_spread
+		{
+		}
+		hcog
+		{
+		}
+		threat_scope
+		{
+			"ui4_enable"		"1"
+		}
+	}
+
 	"ui2_enable"		"0"
+
+	"ui4_enable"		"0"
+	"ui4_draw_cloaked"	"1"
+	UiData4
+	{
+		"ui"							"ui/cro_threat_front"
+		"mesh"					"models/weapons/attachments/cro_rui_upper"
+		Args
+		{
+			zoomFrac					player_chargeFrac
+		}
+	}
 }

@@ -1,5 +1,9 @@
 WeaponData
 {
+	// Debug
+	//"viewmodel_offset_hip"		"0 7 2"
+	//"viewmodel_offset_hip"		"1 0 0"
+
 	Mods
 	{
 		iron_sights
@@ -16,6 +20,7 @@ WeaponData
 	}
 
 	"ui1_enable"				"0"
+	"ui2_enable"				"0"
 
 	"UiData4"
 	{
