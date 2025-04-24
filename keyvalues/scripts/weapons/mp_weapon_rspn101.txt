@@ -9,6 +9,7 @@ WeaponData
 		}
 		hcog
 		{
+			"ui5_enable"		"0"
 			"ui6_enable"		"0"
 		}
 		redline_sight
